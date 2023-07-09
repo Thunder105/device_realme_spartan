@@ -14,4 +14,6 @@
     -->
     <integer name="config_udfpsHbmType">0</integer>
 
+    <!-- Whether show refresh rate QS tile -->
+    <bool name="config_showRefreshRateQsTile">true</bool>
 </resources>
