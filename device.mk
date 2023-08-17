@@ -256,7 +256,9 @@ PRODUCT_PACKAGES += \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
+    init.spartan.rc \
     init.target.rc \
+    oOFTweaks.rc \
     ueventd.oplus.rc \
     ueventd.qcom.rc
 
