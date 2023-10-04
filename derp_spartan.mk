@@ -38,3 +38,4 @@ ifeq ($(WITH_GMS),true)
 endif
 
 EXTRA_UDFPS_ANIMATIONS := true
+DERP_BUILDTYPE := Official
