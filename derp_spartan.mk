@@ -32,10 +32,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := realme/RMX3371/RE54E4L1:13/TP1A.220905.001/S.cd290a_d5d0-4:user/release-keys
 
-WITH_GMS := true
-ifeq ($(WITH_GMS),true)
-#Gapps flag if different than the above one
-endif
-
 EXTRA_UDFPS_ANIMATIONS := true
-DERP_BUILDTYPE := Official
