@@ -31,6 +31,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # GAPPS
+WITH_GMS :=true # this is needed to reserve partitions
 WITH_GAPPS := true
 TARGET_INCLUDE_GOOGLE_TELEPHONY := false
 TARGET_INCLUDE_PIXEL_FRAMEWORK := true
