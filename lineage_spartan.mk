@@ -49,6 +49,10 @@ TARGET_DEFAULT_ADB_ENABLED := true
 ALPHA_BUILD_TYPE := Official
 ALPHA_MAINTAINER := Amrutesh
 
+#Matrixx Maintainer Info
+MATRIXX_MAINTAINER := Amrutesh
+
+
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
