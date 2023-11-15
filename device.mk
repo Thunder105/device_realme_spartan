@@ -119,6 +119,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_metadata_shim
 
+
+
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
@@ -182,6 +184,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service \
     android.hardware.biometrics.fingerprint@2.3-service.oplus \
     libshims_fingerprint.oplus
 
@@ -319,6 +322,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+
+#Oplus cam
+$(call inherit-product, vendor/oplus/camera/opluscamera.mk)
+
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
