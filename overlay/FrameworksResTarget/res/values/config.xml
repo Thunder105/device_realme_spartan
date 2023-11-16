@@ -77,4 +77,9 @@
 
     <!-- Default component for QR code scanner -->
     <string name="config_defaultQrCodeComponent" translatable="false">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
+
+     <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">150%</fraction>
+    
 </resources>
