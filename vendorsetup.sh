@@ -6,6 +6,3 @@ git clone https://github.com/RealmeGTNeo3T-Devs/android_kernel_realme_sm8250.git
 
 echo "Cloning oplus hals"
 git clone https://github.com/RealmeGTNeo3T-Devs/android_hardware_oplus.git hardware/oplus -b derp-14
-
-echo "Cloning Oplus Cam"
-git clone https://gitlab.com/pjgowtham/proprietary_vendor_oplus_camera.git vendor/oplus/camera --depth=1

@@ -62,9 +62,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := kona
 
-#Camera
-TARGET_USES_OPLUS_CAMERA := true
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
