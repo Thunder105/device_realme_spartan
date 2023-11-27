@@ -329,6 +329,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+#Oplus Camera
+$(call inherit-product, vendor/oplus/camera/opluscamera.mk)
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
