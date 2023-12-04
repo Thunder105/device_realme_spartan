@@ -68,5 +68,7 @@
     <string-array name="config_cameraHFRPrivAppList" translatable="false">
         <item>com.oplus.camera</item>
         <item>org.lineageos.aperture</item>
+        <item>com.google.android.GoogleCameraEng</item>
+        <item>org.codeaurora.snapcam</item>
     </string-array>
 </resources>
