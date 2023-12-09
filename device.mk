@@ -330,6 +330,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 # Overlays
+$(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
