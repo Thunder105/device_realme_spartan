@@ -206,7 +206,7 @@
         <device name="SND_DEVICE_IN_HEADSET_MIC_VOICE_RECORD_ODM1" acdb_id="47"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_VOICE_COMMUNICATION_ODM1" acdb_id="110"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_VOICE_COMMUNICATION_ODM1" acdb_id="116"/>
-        <device name="SND_DEVICE_IN_HEADSET_MIC_VOICE_COMMUNICATION_WODM1" acdb_id="47"/>
+        <device name="SND_DEVICE_IN_HEADSET_MIC_VOICE_COMMUNICATION_ODM1" acdb_id="47"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_VOICE_RECORD_TMGP" acdb_id="13"/>
         <device name="SND_DEVICE_IN_HEADSET_MIC_VOICE_RECORD_TMGP" acdb_id="84"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_VOICE_RECORD_EFFECT" acdb_id="119"/>
