@@ -12,9 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/spartan/device.mk)
 
 # Inherit some common Horizon stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_spartan
+DROIDX_BUILD_TYPE := OFFICIAL 
+DROIDX_GAPPS := true
+
+PRODUCT_NAME := droidx_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -41,8 +44,6 @@ TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
 # Horizon Maintainer Info
-HORIZON_MAINTAINER := Hariprakash
-CUSTOM_BUILD_TYPE := Official
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
@@ -55,4 +56,6 @@ BUILD_FINGERPRINT := realme/RMX3371/RE54E4L1:13/TP1A.220905.001/S.12f3337_8494f-
 
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+
 

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_spartan.mk
+    $(LOCAL_DIR)/droidx_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_spartan-user \
-    aosp_spartan-userdebug \
-    aosp_spartan-eng
+    droidx_spartan-user \
+    droidx_spartan-userdebug \
+    droidx_spartan-eng

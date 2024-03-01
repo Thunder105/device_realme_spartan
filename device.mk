@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+DROIDX_GAPPS := true
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
@@ -270,8 +270,8 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oplus
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.livedisplay@2.1-service.oplus
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -327,7 +327,9 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 #Oplus Camera
-$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+#$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+PRODUCT_PACKAGES += \
+    GCamGOPrebuilt-V4
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)

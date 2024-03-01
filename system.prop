@@ -3,3 +3,6 @@ persist.sys.brightness.low.gamma=true
 
 # Graphics (Adreno)
 ro.zygote.disable_gl_preload=1
+
+# name
+ro.droidx.maintainer= Hariprakash
