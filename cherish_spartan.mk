@@ -11,13 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/realme/spartan/device.mk)
 
-# Inherit some common Horizon stuff.
-$(call inherit-product, vendor/droidx/config/common_full_phone.mk)
+# Inherit some common Cherish stuff.
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-DROIDX_BUILD_TYPE := OFFICIAL 
-DROIDX_GAPPS := true
-
-PRODUCT_NAME := droidx_spartan
+PRODUCT_NAME := cherish_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -28,22 +25,23 @@ PRODUCT_SYSTEM_DEVICE := RE54E4L1
 # Device config
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
-TARGET_EXCLUDES_AUDIOFX := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
+# Cherish
+CHERISH_MAINTAINER := Hariprakash
+CHERISH_CHIPSET := SM8250
+CHERISH_BATTERY := 5000mAh
+CHERISH_DISPLAY := 2400x1080
+
 # GAPPS
 WITH_GMS := true
-BUILD_GOOGLE_CONTACTS := true
-BUILD_GOOGLE_DIALER := true
-BUILD_GOOGLE_MESSAGE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 
 # Debugging
 TARGET_INCLUDE_MATLOG := false
 TARGET_DEFAULT_ADB_ENABLED := true
 
-# Horizon Maintainer Info
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 

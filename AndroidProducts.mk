@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/droidx_spartan.mk
+    $(LOCAL_DIR)/cherish_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    droidx_spartan-user \
-    droidx_spartan-userdebug \
-    droidx_spartan-eng
+    cherish_spartan-user \
+    cherish_spartan-userdebug \
+    cherish_spartan-eng
